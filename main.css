@@ -5,3 +5,15 @@ a {
 h2 {
     font-family:"DM Serif Display",serif;
 }
+
+.cover {
+    padding-top: 50px;
+}
+
+.navbarName {
+    color: salmon;
+}
+
+a:hover {
+    backgroud-color: salmon;
+}
