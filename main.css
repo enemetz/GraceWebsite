@@ -6,22 +6,37 @@ h2 {
     font-family:"DM Serif Display",serif;
 }
 
+main {
+    alignment: center;
+    background-size: cover;
+}
+
+.portfolio {
+    padding: 300px;
+}
+
 .cover {
-    padding-top: 50px;
+    padding-top: 10000px;
 }
 
-.navbarName {
-    color: salmon;
+p {
+    font-size: larger;
 }
 
-a:hover {
-    backgroud-color: salmon;
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0  4px;
 }
 
-.main {
-    padding-top: 100px;
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
-.masthead {
-    padding-top: 50px;
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
