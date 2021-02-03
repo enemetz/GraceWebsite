@@ -6,6 +6,10 @@ h2 {
     font-family:"DM Serif Display",serif;
 }
 
+h5 {
+    font-family:"Helvetica",serif;
+}
+
 main {
     alignment: center;
     background-size: cover;
@@ -26,13 +30,13 @@ p {
 .album {
     display: flex;
     flex-wrap: wrap;
-    padding: 0  4px;
+    padding: 0  2px;
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 2px;
 }
 
 .column img {
