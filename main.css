@@ -7,7 +7,7 @@ h2 {
 }
 
 h5 {
-    font-family:"Helvetica",serif;
+    font-family:"DM Serif Display",serif;
 }
 
 main {
@@ -30,17 +30,25 @@ p {
 .album {
     display: flex;
     flex-wrap: wrap;
-    padding: 0  2px;
+    padding:  25px;
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 2px;
+    padding: 25px;
 }
 
 .column img {
-    margin-top: 8px;
+    margin-top: 10px;
     vertical-align: middle;
     width: 100%;
+}
+
+.txt {
+    padding: 8px;
+}
+
+.subtitle{
+    padding-top: 10px;
 }
