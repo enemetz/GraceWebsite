@@ -1,13 +1,18 @@
+body {background-color: black;}
+
 a {
     font-family:"DM Serif Display",serif;
+
 }
 
 h2 {
     font-family:"DM Serif Display",serif;
+    color: white;
 }
 
 h5 {
     font-family:"DM Serif Display",serif;
+    color: white;
 }
 
 main {
@@ -25,6 +30,7 @@ main {
 
 p {
     font-size: larger;
+    color: white;
 }
 
 .album {
@@ -52,3 +58,4 @@ p {
 .subtitle{
     padding-top: 10px;
 }
+
