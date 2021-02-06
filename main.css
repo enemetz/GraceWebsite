@@ -7,7 +7,7 @@ a {
 
 h2 {
     font-family:"DM Serif Display",serif;
-    color: white;
+    color: black;
 }
 
 h5 {
@@ -21,7 +21,7 @@ main {
 }
 
 .portfolio {
-    padding: 300px;
+
 }
 
 .cover {
@@ -30,7 +30,7 @@ main {
 
 p {
     font-size: larger;
-    color: white;
+    color: black;
 }
 
 .album {
@@ -58,4 +58,26 @@ p {
 .subtitle{
     padding-top: 10px;
 }
+
+.intro {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.portImg {
+    border-radius: 0px;
+}
+
+hr {
+    color: white;
+}
+
+
+
 
