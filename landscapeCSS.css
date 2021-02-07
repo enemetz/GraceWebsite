@@ -1,6 +1,5 @@
 h2 {
     font-family:"DM Serif Display",serif;
-    padding-top: 75px;
 }
 
 
@@ -10,6 +9,10 @@ a {
 
 .verticalImages {
     display: flex;
-    padding: 50px;
+}
 
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
