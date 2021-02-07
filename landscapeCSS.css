@@ -1,5 +1,10 @@
+body {
+    padding-top: 20px
+}
+
 h2 {
     font-family:"DM Serif Display",serif;
+    padding-top: 15px;
 }
 
 
@@ -16,3 +21,13 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+h5 {
+    color: black;
+}
+
+.portraits {
+    display: block;
+    padding-top: 20px;
+}
+
