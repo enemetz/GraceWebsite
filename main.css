@@ -67,13 +67,7 @@ p {
 }
 
 .navbar {
-    background: linear-gradient(to right bottom, rgba(14, 13, 13, 1), rgba(14, 13, 13, 0.9));
-    -webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    filter: blur(20px);
-    backdrop-filter: blur(20px);
+    background: linear-gradient(to right bottom, rgba(18, 18, 18, 0.98), rgba(18, 18, 18, 0.98));
 
 }
 
