@@ -1,18 +1,22 @@
-body {background-color: black;}
+body {
+    background-color: black;
+    padding-top: 50px;
+}
 
 a {
-    font-family:"DM Serif Display",serif;
+    font-family: "Didot", sans-serif;
 
 }
 
 h2 {
-    font-family:"DM Serif Display",serif;
+    font-family:"Didot",sans-serif;
     color: black;
 }
 
 h5 {
-    font-family:"DM Serif Display",serif;
+    font-family:"Didot",sans-serif;
     color: black;
+    padding-top: 10px;
 }
 
 main {
@@ -67,7 +71,7 @@ p {
 }
 
 .navbar {
-    background: linear-gradient(to right bottom, rgba(18, 18, 18, 0.98), rgba(18, 18, 18, 0.98));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
 
 }
 
@@ -79,6 +83,9 @@ hr {
     color: white;
 }
 
+.about-me-title {
+    padding-top: 50px;
+}
 
 
 

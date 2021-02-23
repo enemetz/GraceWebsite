@@ -2,16 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Grace Kim | Fashion</title>
+    <title>Grace Kim | Portraits</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="landscapeCSS.css">
+    <style>
+        .contain {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #727272;
+            overflow: hidden;
+            opacity: 70%;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+        }
+
+        .contain:hover .overlay {
+            height: 100%;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+    </style>
 </head>
-<body style="background-color: #eae7e0" ;>
+<body style="background-color: #ffffff">
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #eae7db;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Grace Kim</a>
+            <a class="navbar-brand" href="index.html">graceyen</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,34 +69,68 @@
             </div>
         </div>
     </nav>
+    &nbsp;
 </header>
 &nbsp;
-<h2 class="text-center">Fashion</h2>
-<hr class="featurette-divider">
-<div class="row">
-    <div class="column">
-        <a href="RockAndWater.jpeg">
-            <img src="IMG_2151.jpeg">
-        </a>
-        <img src="SailBoat.jpeg">
+<section class="portraits">
+    <h2 class="text-center" style="font-size:40px">fashion</h2>
+    <hr class="featurette-divider">
+    <div class="container pictures">
+        <div class="row">
+            <div class="col-md-10 justify-content-center offset-md-1" align="center">
+                <div class="contain">
+                    <img class="image img-fluid" width="800" src="fashion-red.png">
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Monochrome</h3>
+                            <p>Taken with X</p>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="contain">
+                    <img class="image img-fluid" height="600" width="800" src="fashion-white.png">
+                    <div class="overlay">
+                        <div class="text">Shit</div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="contain">
+                    <img class="image img-fluid" src="fashion-field.png">
+                    <div class="overlay">
+                        <div class="text">Fuck</div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="contain">
+                    <img class="image img-fluid" src="fashion-nsfw.png">
+                    <div class="overlay">
+                        <div class="text">Fuck</div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="contain">
+                    <img class="image img-fluid" src="fashion-monochrome.png">
+                    <div class="overlay">
+                        <div class="text">Fuck</div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="contain">
+                    <img class="image img-fluid" src="fashion-sweatshirt.png">
+                    <div class="overlay">
+                        <div class="text">Fuck</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </div>
-    <div class="column">
-        <img src="IMG_2154.jpeg">
-        <img src="GraceHeadShot2.png">
-        <img src="GraceHeadShot.jpg">
-    </div>
-    <div class="column">
-        <img src="GraceHeadShot.jpg">
-        <img src="Portrait.jpeg">
-        <img src="RockAndWater.jpeg">
-    </div>
-    <div class="column">
-        <img src="GraceHeadShot2.png">
-        <img src="GraceHeadShot.jpg">
-        <img src="Portrait.jpeg">
-    </div>
-</div>
+
+</section>
+&nbsp;
+&nbsp;
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
